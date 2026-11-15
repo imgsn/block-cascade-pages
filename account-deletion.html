@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delete your account - Block Cascade</title>
+<meta name="description" content="How to delete your Block Cascade account and online data.">
+<style>
+  :root {
+    --bg: #f5f5fa;
+    --card: #ffffff;
+    --ink: #1a1a2e;
+    --muted: #4a4a63;
+    --accent: #4a43c4;
+    --line: #e2e2ee;
+    --header-from: #1a1a2e;
+    --header-to: #2b2a52;
+    --on-header: #ffffff;
+    --font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --measure: 760px;
+    --sp-4: 4px;
+    --sp-6: 6px;
+    --sp-8: 8px;
+    --sp-10: 10px;
+    --sp-16: 16px;
+    --sp-22: 22px;
+    --sp-24: 24px;
+    --sp-26: 26px;
+    --sp-28: 28px;
+    --sp-32: 32px;
+    --sp-40: 40px;
+    --sp-48: 48px;
+    --sp-56: 56px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12121f;
+      --card: #1a1a2e;
+      --ink: #f2f2f8;
+      --muted: #b9b9cf;
+      --accent: #9d97ff;
+      --line: #2d2d4a;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.7;
+  }
+  header {
+    background: linear-gradient(135deg, var(--header-from), var(--header-to));
+    color: var(--on-header);
+    text-align: center;
+    padding: var(--sp-48) var(--sp-16) var(--sp-56);
+  }
+  header h1 { font-size: 1.9rem; letter-spacing: 0.06em; }
+  header p { opacity: 0.8; margin-top: var(--sp-6); }
+  main { max-width: var(--measure); margin: calc(-1 * var(--sp-28)) auto var(--sp-40); padding: 0 var(--sp-16); }
+  section {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--sp-16);
+    padding: var(--sp-24) var(--sp-26);
+    margin-bottom: var(--sp-16);
+  }
+  h2 { font-size: 1.15rem; color: var(--accent); margin-bottom: var(--sp-8); }
+  p, li { color: var(--muted); font-size: 0.98rem; }
+  p + p { margin-top: var(--sp-10); }
+  ul, ol { padding-left: var(--sp-22); margin-top: var(--sp-6); }
+  li + li { margin-top: var(--sp-4); }
+  .date { font-size: 0.85rem; }
+  a { color: var(--accent); font-weight: 600; }
+  footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding: 0 var(--sp-16) var(--sp-32); }
+</style>
+</head>
+<body>
+<header>
+  <h1>BLOCK CASCADE</h1>
+  <p>Account deletion</p>
+</header>
+<main>
+
+<section>
+  <h2>Delete your Block Cascade account</h2>
+  <p class="date">Last updated: November 15, 2026</p>
+  <p>Block Cascade accounts are optional and only exist if you chose to sign in with Google. You can delete yours, and the data tied to it, at any time.</p>
+</section>
+
+<section>
+  <h2>In the app (recommended)</h2>
+  <ol>
+    <li>Open Block Cascade and tap the account icon at the top.</li>
+    <li>Tap <strong>Delete my online data and account</strong>.</li>
+    <li>Confirm. If asked, sign in with Google again so we can confirm it is you.</li>
+  </ol>
+</section>
+
+<section>
+  <h2>What is deleted</h2>
+  <ul>
+    <li>Your leaderboard entry: game name, avatar, best score and update time.</li>
+    <li>Your sign-in account, including the email and profile link Firebase Authentication stored for it.</li>
+  </ul>
+  <p>The best score saved on your phone is not an online account. It stays until you uninstall the app or clear its data.</p>
+</section>
+
+<section>
+  <h2>If you can no longer use the app</h2>
+  <p>Reinstall Block Cascade, sign in with the same Google account, and use the steps above. If that is not possible, open an issue at <a href="https://github.com/imgsn/block-cascade-pages/issues">github.com/imgsn/block-cascade-pages/issues</a> titled "Delete my data". Do not include personal information; we will reply there with how to confirm your identity.</p>
+</section>
+
+</main>
+</main>
+<footer>&copy; 2026 imgsna. All rights reserved.</footer>
+</body>
+</html>
